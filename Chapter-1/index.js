@@ -21,6 +21,9 @@ const fs = require('fs');
 
 const path = "C:/Users/Avinash/Desktop/NodeJs-bootcamp/complete-node-bootcamp/1-node-farm/final/txt/";
 
+//company laptop lo this is the path
+const path_comp = "C:\Users\2165362\OneDrive - Cognizant\Desktop\Programmes\NodeJs Learnings\complete-node-bootcamp";
+
 fs.readFile(path + `start.txt`, 'utf-8', (err,text1) => {
     //fs.readFile(path + ${text1} +`.txt`, 'utf-8', (err,text2) it is wrong!!! Do this
     fs.readFile(path + text1.trim() +`.txt`, 'utf-8', (err,text2) => {
